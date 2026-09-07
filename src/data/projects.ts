@@ -34,17 +34,17 @@ export const projects: Project[] = [
       "A modular Python desktop assistant inspired by JARVIS — running local models, not a cloud demo.",
     purpose:
       "Explore what a personal assistant can do when inference, memory, and control stay on the machine.",
-    cover: "/images/pepper-cover.jpg",
+    cover: "images/pepper-cover.jpg",
     coverAlt:
       "Dark workstation with overlapping terminal panes and modular HUD panels — visual for Pepper, not a product screenshot.",
     stills: [
       {
-        src: "/images/pepper-cover.jpg",
+        src: "images/pepper-cover.jpg",
         alt: "Night workstation still used as a Pepper workspace visual.",
         caption: "Workspace visual · replace with a real capture later",
       },
       {
-        src: "/images/pepper-modules.jpg",
+        src: "images/pepper-modules.jpg",
         alt: "Abstract modular panels connected by thin traces.",
         caption: "Architecture visual · modules are still being rewritten",
       },
@@ -139,17 +139,17 @@ export const projects: Project[] = [
       "A 2D prototype set in Mirehaven — a coastal town, a radio station, and broadcasts that should not exist.",
     purpose:
       "Learn 2D game development by making a place, a character, and a build that actually runs on a phone.",
-    cover: "/images/mirehaven-cover.jpg",
+    cover: "images/mirehaven-cover.jpg",
     coverAlt:
       "Foggy coastal night with a radio tower and wet stone — atmosphere for Mirehaven, not in-engine footage.",
     stills: [
       {
-        src: "/images/mirehaven-cover.jpg",
+        src: "images/mirehaven-cover.jpg",
         alt: "Fog, harbor light, and a radio tower at night.",
         caption: "Mirehaven atmosphere · concept visual",
       },
       {
-        src: "/images/mirehaven-studio.jpg",
+        src: "images/mirehaven-studio.jpg",
         alt: "A small radio studio in warm tungsten light.",
         caption: "Broadcast room · concept visual",
       },
@@ -217,12 +217,12 @@ export const projects: Project[] = [
       "Deepcytes.io Cyber Labs — a UK school-collaboration program, with a certificate and a permanent digital badge.",
     purpose:
       "Learn how networks, Linux, and OSINT actually behave, in a structured student lab — not as a job title.",
-    cover: "/images/cyber-cover.jpg",
+    cover: "images/cyber-cover.jpg",
     coverAlt:
       "Quiet network-node study visual over a dark laptop — not a screenshot of lab software.",
     stills: [
       {
-        src: "/images/cyber-cover.jpg",
+        src: "images/cyber-cover.jpg",
         alt: "Abstract network nodes above a dark laptop.",
         caption: "Study visual · not a capture of lab tooling",
       },
@@ -273,12 +273,12 @@ export const projects: Project[] = [
       "Linux, VirtualBox, networking environments, CLI tooling — a lab for breaking things on purpose.",
     purpose:
       "Build a troubleshooting mindset: isolate the fault, change one variable, write down what actually happened.",
-    cover: "/images/linux-cover.jpg",
+    cover: "images/linux-cover.jpg",
     coverAlt:
       "Stacked translucent frames suggesting virtual machines and a terminal pane.",
     stills: [
       {
-        src: "/images/linux-cover.jpg",
+        src: "images/linux-cover.jpg",
         alt: "Virtual-machine frames and a dim terminal pane.",
         caption: "Systems visual · lab atmosphere",
       },
