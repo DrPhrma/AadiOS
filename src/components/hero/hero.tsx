@@ -26,7 +26,7 @@ export function Hero() {
           </div>
           <div className="boot-4 mt-8 flex flex-wrap gap-3">
             <Button asChild>
-              <a href="/#work">
+              <a href="#work">
                 Explore Work
                 <ArrowRight className="size-4" />
               </a>
