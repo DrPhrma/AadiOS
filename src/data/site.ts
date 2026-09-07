@@ -11,7 +11,7 @@ export const site = {
    * Set this to a full profile URL when it should be public.
    * Leave empty so the GitHub control stays visible without inventing a username.
    */
-  githubUrl: "",
+ githubUrl: "https://github.com/DrPhrma",
   academic: {
     board: "CBSE",
     class: "Class 10",
