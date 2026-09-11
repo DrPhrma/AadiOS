@@ -42,7 +42,7 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild variant="ghost">
-              <a href="/#work">
+              <a href="/AadiOS/#work">
                 <ArrowLeft className="size-4" />
                 All work
               </a>
@@ -56,7 +56,7 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
               </Button>
             ) : (
               <Button asChild variant="ghost">
-                <a href="/#contact">GitHub</a>
+                <a href="/AadiOS/#contact">GitHub</a>
               </Button>
             )}
           </div>
