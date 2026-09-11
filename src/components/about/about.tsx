@@ -52,7 +52,7 @@ export function About() {
                 caption="current · portfolio 2026"
               />
               <p className="mt-3 font-mono text-xs text-subtle">
-                Current portfolio — 2026. A lab, not a school résumé template.
+                Current portfolio, not a school résumé template.
               </p>
             </article>
           </div>
