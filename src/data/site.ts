@@ -7,10 +7,7 @@ export const site = {
   title: "Aadi — Student. Developer. Builder.",
   description:
     "Personal developer lab of Aadi, a Class 10 student who learns by building — local AI, systems, cybersecurity, games, and the web.",
-  /**
-   * Set this to a full profile URL when it should be public.
-   * Leave empty so the GitHub control stays visible without inventing a username.
-   */
+ 
  githubUrl: "https://github.com/DrPhrma",
   academic: {
     board: "CBSE",
@@ -33,10 +30,10 @@ export const site = {
 } as const;
 
 export const nav = [
-  { href: "#about", label: "About", id: "about" },
-  { href: "#work", label: "Work", id: "work" },
-  { href: "#skills", label: "Skills", id: "skills" },
-  { href: "#lab", label: "Lab", id: "lab" },
-  { href: "#timeline", label: "Timeline", id: "timeline" },
-  { href: "#contact", label: "Contact", id: "contact" },
+  { href: "/AadiOS/#about", label: "About", id: "about" },
+  { href: "/AadiOS/#work", label: "Work", id: "work" },
+  { href: "/AadiOS/#skills", label: "Skills", id: "skills" },
+  { href: "/AadiOS/#lab", label: "Lab", id: "lab" },
+  { href: "/AadiOS/#timeline", label: "Timeline", id: "timeline" },
+  { href: "/AadiOS/#contact", label: "Contact", id: "contact" },
 ] as const;
