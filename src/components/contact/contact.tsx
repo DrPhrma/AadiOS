@@ -8,15 +8,14 @@ export function Contact() {
     <Section
       id="contact"
       kicker="09 / Contact"
-      title="Let's build something."
-      aside="Only channels that actually exist are listed."
+      title="Contact Me."
+      aside="Dm opens"
     >
       <Reveal>
         <div className="max-w-xl space-y-6">
           <p className="text-base text-muted">
             If you are a student, a mentor, or someone building in the same
-            neighbourhood of ideas — start a conversation. This page does not
-            invent inboxes or usernames.
+            neighbourhood of ideas — start a conversation.
           </p>
           {site.githubUrl ? (
             <Button asChild>
