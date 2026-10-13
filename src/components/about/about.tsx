@@ -36,19 +36,19 @@ export function About() {
               <p className="kicker mb-3">Version 01</p>
               <MediaFrame
                 src="images/version-01.png"
-                alt="Abstract visual standing in for the first Class 8 portfolio — not a real screenshot."
-                caption="placeholder · first portfolio, Class 8"
+                alt="First portfolio"
+                caption="Class 8"
               />
               <p className="mt-3 font-mono text-xs text-subtle">
-                First portfolio — end of Class 8. Original capture not attached; this is a stand-in.
+                First portfolio — end of Class 8.
               </p>
             </article>
             <article>
               <p className="kicker mb-3">Version 02</p>
               <MediaFrame
                 src="images/version-02.png"
-                alt="Refined dark workstation interface representing the 2026 portfolio."
-                caption="current · portfolio 2026"
+                alt="Current portfolio"
+                caption="2026"
               />
               <p className="mt-3 font-mono text-xs text-subtle">
                 Current portfolio.

@@ -35,18 +35,17 @@ export const projects: Project[] = [
     purpose:
       "Explore what a personal assistant can do when inference, memory, and control stay on the machine.",
     cover: "images/pepper-cover.jpg",
-    coverAlt:
-      "Dark workstation with overlapping terminal panes and modular HUD panels — visual for Pepper, not a product screenshot.",
+    coverAlt: "Pepper workspace",
     stills: [
       {
         src: "images/pepper-cover.jpg",
-        alt: "Night workstation still used as a Pepper workspace visual.",
-        caption: "Workspace visual · replace with a real capture later",
+        alt: "Pepper workspace",
+        caption: "Workspace",
       },
       {
         src: "images/pepper-modules.jpg",
-        alt: "Abstract modular panels connected by thin traces.",
-        caption: "Architecture visual · modules are still being rewritten",
+        alt: "Pepper modules",
+        caption: "Modules",
       },
     ],
     stack: [
@@ -140,18 +139,17 @@ export const projects: Project[] = [
     purpose:
       "Learn 2D game development by making a place, a character, and a build that actually runs on a phone.",
     cover: "images/mirehaven-cover.jpg",
-    coverAlt:
-      "Foggy coastal night with a radio tower and wet stone — atmosphere for Mirehaven, not in-engine footage.",
+    coverAlt: "Mirehaven",
     stills: [
       {
         src: "images/mirehaven-cover.jpg",
-        alt: "Fog, harbor light, and a radio tower at night.",
-        caption: "Mirehaven atmosphere · concept visual",
+        alt: "Mirehaven",
+        caption: "Mirehaven",
       },
       {
         src: "images/mirehaven-studio.jpg",
-        alt: "A small radio studio in warm tungsten light.",
-        caption: "Broadcast room · concept visual",
+        alt: "Radio studio",
+        caption: "Broadcast room",
       },
     ],
     stack: [
@@ -218,13 +216,12 @@ export const projects: Project[] = [
     purpose:
       "Learn how networks, Linux, and OSINT actually behave, in a structured student lab — not as a job title.",
     cover: "images/cyber-cover.jpg",
-    coverAlt:
-      "Quiet network-node study visual over a dark laptop — not a screenshot of lab software.",
+    coverAlt: "Cybersecurity labs",
     stills: [
       {
         src: "images/cyber-cover.jpg",
-        alt: "Abstract network nodes above a dark laptop.",
-        caption: "Study visual · not a capture of lab tooling",
+        alt: "Cybersecurity labs",
+        caption: "Cyber Labs",
       },
     ],
     stack: [
@@ -274,13 +271,12 @@ export const projects: Project[] = [
     purpose:
       "Build a troubleshooting mindset: isolate the fault, change one variable, write down what actually happened.",
     cover: "images/linux-cover.jpg",
-    coverAlt:
-      "Stacked translucent frames suggesting virtual machines and a terminal pane.",
+    coverAlt: "Linux systems lab",
     stills: [
       {
         src: "images/linux-cover.jpg",
-        alt: "Virtual-machine frames and a dim terminal pane.",
-        caption: "Systems visual · lab atmosphere",
+        alt: "Linux systems lab",
+        caption: "Systems lab",
       },
     ],
     stack: [
