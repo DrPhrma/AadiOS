@@ -15,15 +15,15 @@ export function Hero() {
           <h1 className="boot-2 mt-3 max-w-full font-display text-display text-fg">
             {site.name.toUpperCase()}
           </h1>
-          <div className="boot-3 mt-4 max-w-xl">
+          <div className="boot-3 mt-5 max-w-2xl">
             {reduced ? (
-              <p className="text-lg text-fg sm:text-xl">{site.tagline}</p>
+              <p className="text-xl text-fg sm:text-2xl">{site.tagline}</p>
             ) : (
-              <TypeLine text={site.tagline} className="text-lg text-fg sm:text-xl" />
+              <TypeLine text={site.tagline} className="text-xl text-fg sm:text-2xl" />
             )}
-            <p className="mt-3 text-base text-muted">{site.support}</p>
+            <p className="mt-4 text-lg text-muted sm:text-xl">{site.support}</p>
           </div>
-          <div className="boot-4 mt-8 flex flex-wrap gap-3">
+          <div className="boot-4 mt-10 flex flex-wrap gap-3">
             <Button asChild>
               <a href="#work">
                 Explore Work
