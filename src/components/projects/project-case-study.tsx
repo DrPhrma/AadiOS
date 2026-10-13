@@ -61,13 +61,18 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
             )}
           </div>
 
-          <div className="mt-12">
-            <MediaFrame
-              src={project.cover}
-              alt={project.coverAlt}
-              caption={project.title}
-            />
-          </div>
+          {project.stills.length > 0 ? (
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
+              {project.stills.map((still) => (
+                <MediaFrame
+                  key={still.src + still.caption}
+                  src={still.src}
+                  alt={still.alt}
+                  caption={still.caption}
+                />
+              ))}
+            </div>
+          ) : null}
 
           <div className="mt-16 grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">
             <div className="space-y-10">
@@ -144,22 +149,6 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
               </div>
             </aside>
           </div>
-
-          {project.stills.length > 0 ? (
-            <div className="mt-16">
-              <p className="kicker mb-6">Photos</p>
-              <div className="grid gap-6 md:grid-cols-2">
-                {project.stills.map((still) => (
-                  <MediaFrame
-                    key={still.src + still.caption}
-                    src={still.src}
-                    alt={still.alt}
-                    caption={still.caption}
-                  />
-                ))}
-              </div>
-            </div>
-          ) : null}
         </article>
       </main>
       <Footer />
