@@ -79,9 +79,30 @@ export const experiments: Experiment[] = [
   {
     id: "osint-notes",
     title: "OSINT methodology notes",
-    blurb: "Sources, restraint, and not turning curiosity into a performance.",
+    blurb: "How to gather public information carefully and write down what you actually found.",
     category: "cyber",
     status: "experiment",
+  },
+  {
+    id: "osint-search",
+    title: "Public source mapping",
+    blurb: "Practice linking open sources without jumping to conclusions.",
+    category: "cyber",
+    status: "completed",
+  },
+  {
+    id: "ethical-recon",
+    title: "Ethical recon basics",
+    blurb: "Reconnaissance exercises inside lab boundaries only — what is allowed and what is not.",
+    category: "cyber",
+    status: "completed",
+  },
+  {
+    id: "vuln-lab",
+    title: "Vulnerable machine practice",
+    blurb: "Intentional broken systems in a VM — find the issue, fix the notes, reset the box.",
+    category: "cyber",
+    status: "in-progress",
   },
   {
     id: "net-fundamentals",
@@ -89,6 +110,13 @@ export const experiments: Experiment[] = [
     blurb: "Packets, paths, and the difference between down and misconfigured.",
     category: "cyber",
     status: "completed",
+  },
+  {
+    id: "password-hygiene",
+    title: "Password and auth labs",
+    blurb: "How weak auth fails in practice, and why proper handling matters.",
+    category: "cyber",
+    status: "experiment",
   },
   {
     id: "mirehaven",
@@ -121,7 +149,7 @@ export const experiments: Experiment[] = [
   {
     id: "portfolio-v2",
     title: "Portfolio v02",
-    blurb: "This lab. Built to last through Class 10 and to be rewritten when it should.",
+    blurb: "This site. Built to last through Class 10 and to be rewritten when it should.",
     category: "web",
     status: "in-progress",
   },
