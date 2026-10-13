@@ -37,11 +37,11 @@ export function ProjectCard({
             </div>
           </div>
           <div className="flex flex-col gap-3 px-3 py-4 sm:px-4">
-            <div className="flex items-start justify-between gap-3">
+            <div className="flex flex-col gap-1.5 sm:flex-row sm:items-start sm:justify-between sm:gap-3">
               <h3 className="text-lg text-fg sm:text-xl">{project.title}</h3>
               <span
                 className={cn(
-                  "shrink-0 pt-1 font-mono text-micro tracking-wide",
+                  "font-mono text-micro tracking-wide sm:shrink-0 sm:pt-1 sm:text-right",
                   statusTone[project.status],
                 )}
               >
