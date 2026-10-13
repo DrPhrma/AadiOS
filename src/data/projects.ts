@@ -38,11 +38,6 @@ export const projects: Project[] = [
     coverAlt: "Pepper workspace",
     stills: [
       {
-        src: "images/pepper-cover.png",
-        alt: "Pepper workspace",
-        caption: "Workspace",
-      },
-      {
         src: "images/pepper2.png",
         alt: "Pepper session",
         caption: "Session",
@@ -142,11 +137,6 @@ export const projects: Project[] = [
     coverAlt: "Mirehaven",
     stills: [
       {
-        src: "images/mireheaven.jpeg",
-        alt: "Mirehaven",
-        caption: "Mirehaven",
-      },
-      {
         src: "images/mireheaven2.jpeg",
         alt: "Game still",
         caption: "In game",
@@ -219,11 +209,6 @@ export const projects: Project[] = [
     coverAlt: "Cybersecurity labs",
     stills: [
       {
-        src: "images/cyber-cover.jpeg",
-        alt: "Cybersecurity labs",
-        caption: "Cyber Labs",
-      },
-      {
         src: "images/cybersec2.jpeg",
         alt: "Certificate",
         caption: "Certificate",
@@ -278,11 +263,6 @@ export const projects: Project[] = [
     cover: "images/linux-cover.jpg",
     coverAlt: "Linux systems lab",
     stills: [
-      {
-        src: "images/linux-cover.jpg",
-        alt: "Linux systems lab",
-        caption: "Systems lab",
-      },
       {
         src: "images/linux2.jpg",
         alt: "Linux environment",
