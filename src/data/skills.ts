@@ -17,13 +17,13 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "programming",
     label: "Programming",
-    blurb: "The languages actually used to build, not a list of tutorials watched.",
+    blurb: "Languages used in actual projects.",
     skills: ["Python", "HTML", "CSS", "JavaScript"],
   },
   {
     id: "ai",
     label: "AI",
-    blurb: "Local models, prompts, and the messy middle between a demo and a tool.",
+    blurb: "Local models, prompts, and turning experiments into tools.",
     skills: [
       "Ollama",
       "Qwen",
@@ -35,19 +35,19 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "systems",
     label: "Systems",
-    blurb: "Hosts, guests, and the seams between them.",
+    blurb: "Linux, virtualization, and the basics of how machines talk.",
     skills: ["Linux", "Windows", "VirtualBox"],
   },
   {
     id: "security",
     label: "Security",
-    blurb: "Student-lab range: networks, OSINT, and how machines fail.",
+    blurb: "Student-lab work: networks, OSINT, and how systems fail.",
     skills: ["Cybersecurity", "OSINT", "Networking"],
   },
   {
     id: "development",
     label: "Development",
-    blurb: "The unglamorous tools that keep experiments from rotting.",
+    blurb: "Tools that keep experiments organised and usable.",
     skills: ["Git", "GitHub", "Automation", "Debugging", "Modular architecture"],
   },
   {

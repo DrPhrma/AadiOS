@@ -8,11 +8,10 @@ export function About() {
       id="about"
       kicker="02 / About"
       title="I started building before I really knew what I was doing."
-      aside="A progression, not a biography."
     >
-      <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+      <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
         <Reveal>
-          <div className="space-y-5 text-base leading-normal text-muted">
+          <div className="space-y-4 text-base leading-normal text-muted">
             <p>
               Near the end of Class 8 a first personal portfolio went live. It was
               imperfect. That was the point — a page existed because it was made,
@@ -52,7 +51,7 @@ export function About() {
                 caption="current · portfolio 2026"
               />
               <p className="mt-3 font-mono text-xs text-subtle">
-                Current portfolio, not a school résumé template.
+                Current portfolio.
               </p>
             </article>
           </div>

@@ -12,8 +12,7 @@ export function SkillConstellation() {
     <Section
       id="skills"
       kicker="04 / Skills"
-      title="A constellation, not a scoreboard."
-      aside="No fake percentages. Groups you can inspect."
+      title="Skills I've actually used."
     >
       <div className="flex flex-wrap gap-2">
         <FilterChip
@@ -32,15 +31,15 @@ export function SkillConstellation() {
       </div>
 
       {current ? (
-        <p className="mt-6 max-w-2xl text-sm text-muted">{current.blurb}</p>
+        <p className="mt-5 max-w-2xl text-sm text-muted">{current.blurb}</p>
       ) : (
-        <p className="mt-6 max-w-2xl text-sm text-muted">
-          Select a cluster to isolate it. Skills are listed because they have been
-          used — not because a bar chart said so.
+        <p className="mt-5 max-w-2xl text-sm text-muted">
+          Select a group to focus on it. These are tools and languages I've used
+          in real projects.
         </p>
       )}
 
-      <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map((group, i) => {
           const dim = active !== "all" && active !== group.id;
           return (

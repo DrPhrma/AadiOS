@@ -27,9 +27,8 @@ export function Lab() {
   return (
     <Section
       id="lab"
-      kicker="05 / The Lab"
-      title="Experiments count."
-      aside="Unfinished is not the same as unused."
+      kicker="05 / Lab"
+      title="Experiments."
     >
       <div className="flex flex-wrap gap-2">
         {experimentCategories.map((item) => (
@@ -50,7 +49,7 @@ export function Lab() {
         ))}
       </div>
 
-      <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {list.map((item, i) => (
           <Reveal key={item.id} delay={(i % 6) * 40}>
             <article className="flex h-full flex-col rounded-md bg-surface p-5 shadow-[var(--shadow-border)]">

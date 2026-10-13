@@ -2,8 +2,8 @@ import { site } from "@/data/site";
 
 export function Footer() {
   return (
-    <footer className="border-t border-line px-4 py-16 sm:px-6 lg:px-8">
-      <div className="mx-auto flex max-w-6xl flex-col gap-10">
+    <footer className="border-t border-line px-4 py-12 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-6xl flex-col gap-8">
         <p className="font-display text-statement tracking-tight text-fg">
           Still building.
         </p>
@@ -11,7 +11,7 @@ export function Footer() {
           <p className="font-mono text-xs">
             © {site.year} {site.name}. Built with curiosity.
           </p>
-          <p className="font-mono text-xs text-subtle">{site.os} · workspace</p>
+          <p className="font-mono text-xs text-subtle">{site.os}</p>
         </div>
       </div>
     </footer>

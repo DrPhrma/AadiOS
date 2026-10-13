@@ -55,19 +55,19 @@ export function Hero() {
 
 function StatusPanel() {
   const rows = [
-    ["STATUS", site.status.status],
-    ["FOCUS", site.status.focus],
-    ["STACK", site.status.stack],
-    ["CURRENT", site.status.current],
+    ["Status", site.status.status],
+    ["Focus", site.status.focus],
+    ["Stack", site.status.stack],
+    ["Current", site.status.current],
   ] as const;
 
   return (
-    <aside className="bg-bg-raised/80 px-4 py-4 sm:px-5" aria-label="System status">
+    <aside className="bg-bg-raised/80 px-4 py-4 sm:px-5" aria-label="Current focus">
       <div className="mb-3 flex items-center justify-between gap-3">
         <p className="font-mono text-xs tracking-wide text-fg">{site.os}</p>
         <p className="flex items-center gap-2 font-mono text-micro text-signal">
           <span className="status-dot size-1.5 rounded-full bg-signal" />
-          live panel
+          online
         </p>
       </div>
       <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-6 gap-y-2 font-mono text-xs">

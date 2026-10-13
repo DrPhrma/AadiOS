@@ -9,15 +9,14 @@ export function Achievements() {
     <Section
       id="achievements"
       kicker="06 / Record"
-      title="What is actually on the record."
-      aside="No invented awards. Academic details stay second."
+      title="What's on the record."
     >
-      <div className="grid gap-10 lg:grid-cols-3">
+      <div className="grid gap-8 lg:grid-cols-3">
         {groups.map((group, i) => (
           <Reveal key={group} delay={i * 80}>
             <div className={group === "Academic" ? "opacity-80" : undefined}>
               <p className="kicker">{group}</p>
-              <ul className="mt-5 space-y-4">
+              <ul className="mt-4 space-y-3">
                 {achievements
                   .filter((a) => a.group === group)
                   .map((item) => (
