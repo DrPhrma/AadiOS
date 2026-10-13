@@ -328,6 +328,130 @@ export const projects: Project[] = [
     honesty:
       "An ongoing student lab. Troubleshooting practice, not a claim of professional systems administration.",
   },
+  {
+    slug: "anvil",
+    index: "05",
+    title: "Anvil",
+    category: "Web Tools",
+    status: "completed",
+    statusLabel: "Live",
+    summary:
+      "Nineteen everyday tools on one page — text, study, conversion, generators, image, and developer utilities. No sign-up, no server.",
+    purpose:
+      "Stop opening ten tabs for small utilities. One fast page that runs entirely in the browser.",
+    cover: "https://drphrma.github.io/Anvil/og.jpg",
+    coverAlt: "Anvil tools site",
+    stills: [
+      {
+        src: "https://drphrma.github.io/Anvil/og.jpg",
+        alt: "Anvil",
+        caption: "Cover",
+      },
+      {
+        src: "https://drphrma.github.io/Anvil/og.jpg",
+        alt: "Anvil tools",
+        caption: "Tools",
+      },
+    ],
+    stack: [
+      "HTML",
+      "CSS",
+      "Vanilla JS",
+      "No dependencies",
+      "Client-side only",
+      "GitHub Pages",
+    ],
+    overview: [
+      "Anvil is a single-page toolkit: case converter, text counter, flashcards, unit converter, JSON formatter, image-to-base64, coin flip, and more — nineteen tools total.",
+      "Everything runs in the browser. No accounts, no backend, no build step. Pure HTML, CSS, and vanilla JavaScript.",
+      "Built to be useful immediately and easy to extend — each tool is one object in a registry.",
+    ],
+    journey: [
+      {
+        phase: "Idea",
+        text: "Keep reopening the same utility sites. One page that holds the small tools that actually get used.",
+      },
+      {
+        phase: "Build",
+        text: "No framework. Card grid, shared modal, tool registry. Add a tool by adding one object.",
+      },
+      {
+        phase: "Ship",
+        text: "Deployed on GitHub Pages. Dark by default, light mode available, works offline once loaded.",
+      },
+    ],
+    challenges: [
+      "Keeping nineteen tools consistent without a framework.",
+      "Modal and focus handling that stays keyboard-friendly.",
+      "Resisting the urge to add a backend for something that does not need one.",
+    ],
+    honesty:
+      "A finished utility page, not a product company. Tools are practical; the scope stays small on purpose.",
+    github: "https://github.com/DrPhrma/Anvil",
+    demo: "https://drphrma.github.io/Anvil/",
+  },
+  {
+    slug: "pepper-osint",
+    index: "06",
+    title: "PEPPER",
+    category: "OSINT Toolkit",
+    status: "completed",
+    statusLabel: "Live",
+    summary:
+      "Platform for Extended Public Profile & Entity Research — a privacy-first, client-side OSINT toolkit. No accounts, no API keys.",
+    purpose:
+      "Practice public-source research in the browser without sending queries through someone else's server.",
+    cover: "https://drphrma.github.io/PEPPER/og.jpg",
+    coverAlt: "PEPPER OSINT toolkit",
+    stills: [
+      {
+        src: "https://drphrma.github.io/PEPPER/og.jpg",
+        alt: "PEPPER",
+        caption: "Cover",
+      },
+      {
+        src: "https://drphrma.github.io/PEPPER/og.jpg",
+        alt: "PEPPER toolkit",
+        caption: "Toolkit",
+      },
+    ],
+    stack: [
+      "TypeScript",
+      "React",
+      "Vite",
+      "Tailwind",
+      "Client-side OSINT",
+      "GitHub Pages",
+    ],
+    overview: [
+      "PEPPER (Platform for Extended Public Profile & Entity Research) is a browser-based OSINT toolkit focused on public profiles and entities.",
+      "It is privacy-first: work stays on the client. No accounts and no API keys required to start exploring the interface.",
+      "Separate from the local AI assistant also named Pepper — this is the web research toolkit.",
+    ],
+    journey: [
+      {
+        phase: "Need",
+        text: "OSINT practice that does not depend on a hosted platform or a pile of keys.",
+      },
+      {
+        phase: "Build",
+        text: "React + Vite app structured as a toolkit, deployed as a static site.",
+      },
+      {
+        phase: "Live",
+        text: "Published on GitHub Pages for open use and iteration.",
+      },
+    ],
+    challenges: [
+      "Keeping research methods honest and inside public-source boundaries.",
+      "Building useful UI without leaning on paid APIs.",
+      "Naming collision with the separate local AI project also called Pepper.",
+    ],
+    honesty:
+      "A student-built OSINT interface for learning and practice — not a professional investigation platform.",
+    github: "https://github.com/DrPhrma/PEPPER",
+    demo: "https://drphrma.github.io/PEPPER/",
+  },
 ];
 
 export function getProject(slug: string) {

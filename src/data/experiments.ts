@@ -154,6 +154,20 @@ export const experiments: Experiment[] = [
     status: "in-progress",
   },
   {
+    id: "anvil-site",
+    title: "Anvil",
+    blurb: "19 browser tools, zero dependencies — live at drphrma.github.io/Anvil.",
+    category: "web",
+    status: "completed",
+  },
+  {
+    id: "pepper-osint-site",
+    title: "PEPPER (OSINT)",
+    blurb: "Client-side OSINT toolkit for public profiles — live at drphrma.github.io/PEPPER.",
+    category: "web",
+    status: "completed",
+  },
+  {
     id: "web-components",
     title: "Interface experiments",
     blurb: "Small UI studies that may or may not earn a place in a real page.",

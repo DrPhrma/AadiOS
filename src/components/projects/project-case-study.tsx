@@ -47,6 +47,14 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
                 All work
               </a>
             </Button>
+            {project.demo ? (
+              <Button asChild>
+                <a href={project.demo} target="_blank" rel="noreferrer noopener">
+                  Live site
+                  <ArrowUpRight className="size-4" />
+                </a>
+              </Button>
+            ) : null}
             {github ? (
               <Button asChild variant="ghost">
                 <a href={github} target="_blank" rel="noreferrer noopener">
