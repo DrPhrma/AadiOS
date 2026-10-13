@@ -34,11 +34,11 @@ export const projects: Project[] = [
       "A modular Python desktop assistant inspired by JARVIS — running local models, not a cloud demo.",
     purpose:
       "Explore what a personal assistant can do when inference, memory, and control stay on the machine.",
-    cover: "images/pepper-cover.jpg",
+    cover: "images/pepper-cover.png",
     coverAlt: "Pepper workspace",
     stills: [
       {
-        src: "images/pepper-cover.jpg",
+        src: "images/pepper-cover.png",
         alt: "Pepper workspace",
         caption: "Workspace",
       },
@@ -138,11 +138,11 @@ export const projects: Project[] = [
       "A 2D prototype set in Mirehaven — a coastal town, a radio station, and broadcasts that should not exist.",
     purpose:
       "Learn 2D game development by making a place, a character, and a build that actually runs on a phone.",
-    cover: "images/mirehaven-cover.jpg",
+    cover: "images/mireheaven.jpeg",
     coverAlt: "Mirehaven",
     stills: [
       {
-        src: "images/mirehaven-cover.jpg",
+        src: "images/mireheaven.jpeg",
         alt: "Mirehaven",
         caption: "Mirehaven",
       },
@@ -215,11 +215,11 @@ export const projects: Project[] = [
       "Deepcytes.io Cyber Labs — a UK school-collaboration program, with a certificate and a permanent digital badge.",
     purpose:
       "Learn how networks, Linux, and OSINT actually behave, in a structured student lab — not as a job title.",
-    cover: "images/cyber-cover.jpg",
+    cover: "images/cyber-cover.jpeg",
     coverAlt: "Cybersecurity labs",
     stills: [
       {
-        src: "images/cyber-cover.jpg",
+        src: "images/cyber-cover.jpeg",
         alt: "Cybersecurity labs",
         caption: "Cyber Labs",
       },
