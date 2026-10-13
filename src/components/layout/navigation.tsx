@@ -70,10 +70,6 @@ export function Navigation() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <p className="hidden items-center gap-2 font-mono text-micro tracking-wide text-muted sm:flex">
-            <span className="status-dot size-1.5 rounded-full bg-signal" />
-            ONLINE
-          </p>
           <button
             type="button"
             className="inline-flex size-11 items-center justify-center rounded-sm text-fg lg:hidden"

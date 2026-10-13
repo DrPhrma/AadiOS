@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Brackets } from "@/components/ui/brackets";
 import { TypeLine } from "@/components/hero/type-line";
 import { site } from "@/data/site";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
@@ -44,40 +43,7 @@ export function Hero() {
             )}
           </div>
         </div>
-
-        <Brackets className="boot-5 mt-4 w-full max-w-md self-stretch sm:self-end">
-          <StatusPanel />
-        </Brackets>
       </div>
     </section>
-  );
-}
-
-function StatusPanel() {
-  const rows = [
-    ["Status", site.status.status],
-    ["Focus", site.status.focus],
-    ["Stack", site.status.stack],
-    ["Current", site.status.current],
-  ] as const;
-
-  return (
-    <aside className="bg-bg-raised/80 px-4 py-4 sm:px-5" aria-label="Current focus">
-      <div className="mb-3 flex items-center justify-between gap-3">
-        <p className="font-mono text-xs tracking-wide text-fg">{site.os}</p>
-        <p className="flex items-center gap-2 font-mono text-micro text-signal">
-          <span className="status-dot size-1.5 rounded-full bg-signal" />
-          online
-        </p>
-      </div>
-      <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-6 gap-y-2 font-mono text-xs">
-        {rows.map(([k, v]) => (
-          <div key={k} className="contents">
-            <dt className="text-subtle">{k}</dt>
-            <dd className="min-w-0 text-right text-fg">{v}</dd>
-          </div>
-        ))}
-      </dl>
-    </aside>
   );
 }
