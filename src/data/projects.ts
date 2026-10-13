@@ -29,7 +29,7 @@ export const projects: Project[] = [
     title: "Pepper",
     category: "Local AI Assistant",
     status: "flagship",
-    statusLabel: "In progress · experimental",
+    statusLabel: "In progress",
     summary:
       "A modular Python desktop assistant inspired by JARVIS — running local models, not a cloud demo.",
     purpose:
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     title: "Static on the Line",
     category: "Game Development",
     status: "prototype",
-    statusLabel: "Prototype · iterating",
+    statusLabel: "Prototype",
     summary:
       "A 2D prototype set in Mirehaven — a coastal town, a radio station, and broadcasts that should not exist.",
     purpose:
@@ -210,7 +210,7 @@ export const projects: Project[] = [
     title: "Cybersecurity Labs",
     category: "Cybersecurity",
     status: "completed",
-    statusLabel: "Program completed",
+    statusLabel: "Completed",
     summary:
       "Deepcytes.io Cyber Labs — a UK school-collaboration program, with a certificate and a permanent digital badge.",
     purpose:
@@ -265,7 +265,7 @@ export const projects: Project[] = [
     title: "Linux / Systems Lab",
     category: "Systems",
     status: "lab",
-    statusLabel: "Ongoing lab",
+    statusLabel: "Ongoing",
     summary:
       "Linux, VirtualBox, networking environments, CLI tooling — a lab for breaking things on purpose.",
     purpose:

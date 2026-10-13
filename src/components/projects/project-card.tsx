@@ -16,12 +16,12 @@ export function ProjectCard({
       to="/projects/$slug"
       params={{ slug: project.slug }}
       className={cn(
-        "group block rounded-md bg-surface p-2 shadow-[var(--shadow-border)] transition-[box-shadow,transform] duration-[var(--motion-fast)] ease-[var(--ease-out)] hover:shadow-[var(--shadow-border-hover)]",
+        "group block overflow-hidden rounded-md bg-surface p-2 shadow-[var(--shadow-border)] transition-[box-shadow,transform] duration-[var(--motion-fast)] ease-[var(--ease-out)] hover:shadow-[var(--shadow-border-hover)]",
         featured && "lg:p-3",
       )}
     >
       <Brackets>
-        <article>
+        <article className="min-w-0">
           <div className="relative overflow-hidden rounded-sm bg-bg-raised aspect-video">
             <img
               src={project.cover}
@@ -36,12 +36,14 @@ export function ProjectCard({
               <ArrowUpRight className="size-4 text-fg opacity-0 transition-opacity duration-[var(--motion-quick)] group-hover:opacity-100" />
             </div>
           </div>
-          <div className="flex flex-col gap-3 px-3 py-4 sm:px-4">
-            <div className="flex flex-col gap-1.5 sm:flex-row sm:items-start sm:justify-between sm:gap-3">
-              <h3 className="text-lg text-fg sm:text-xl">{project.title}</h3>
+          <div className="flex min-w-0 flex-col gap-3 px-3 py-4 sm:px-4">
+            <div className="flex min-w-0 items-start justify-between gap-3">
+              <h3 className="min-w-0 flex-1 text-lg text-fg sm:text-xl">
+                {project.title}
+              </h3>
               <span
                 className={cn(
-                  "font-mono text-micro tracking-wide sm:shrink-0 sm:pt-1 sm:text-right",
+                  "shrink-0 pt-1 font-mono text-micro tracking-wide",
                   statusTone[project.status],
                 )}
               >
