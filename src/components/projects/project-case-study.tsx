@@ -65,7 +65,7 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
             <MediaFrame
               src={project.cover}
               alt={project.coverAlt}
-              caption={`~/lab/${project.slug}/cover`}
+              caption={project.title}
             />
           </div>
 
@@ -147,7 +147,7 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
 
           {project.stills.length > 0 ? (
             <div className="mt-16">
-              <p className="kicker mb-6">Stills / placeholders</p>
+              <p className="kicker mb-6">Photos</p>
               <div className="grid gap-6 md:grid-cols-2">
                 {project.stills.map((still) => (
                   <MediaFrame
@@ -158,10 +158,6 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
                   />
                 ))}
               </div>
-              <p className="mt-4 font-mono text-xs text-subtle">
-                Visuals are atmospheric stand-ins unless noted. Image files live
-                in the project stills folder so they can be swapped later.
-              </p>
             </div>
           ) : null}
         </article>
