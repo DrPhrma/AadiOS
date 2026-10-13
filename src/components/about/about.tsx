@@ -35,7 +35,7 @@ export function About() {
             <article>
               <p className="kicker mb-3">Version 01</p>
               <MediaFrame
-                src="images/version-01.png"
+                src="/AadiOS/images/version-01.png"
                 alt="First portfolio"
                 caption="Class 8"
               />
@@ -46,7 +46,7 @@ export function About() {
             <article>
               <p className="kicker mb-3">Version 02</p>
               <MediaFrame
-                src="images/version-02.png"
+                src="/AadiOS/images/version-02.png"
                 alt="Current portfolio"
                 caption="2026"
               />

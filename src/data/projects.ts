@@ -34,16 +34,16 @@ export const projects: Project[] = [
       "A modular Python desktop assistant inspired by JARVIS — running local models, not a cloud demo.",
     purpose:
       "Explore what a personal assistant can do when inference, memory, and control stay on the machine.",
-    cover: "images/pepper-cover.png",
+    cover: "/AadiOS/images/pepper-cover.png",
     coverAlt: "Pepper workspace",
     stills: [
       {
-        src: "images/pepper-cover.png",
+        src: "/AadiOS/images/pepper-cover.png",
         alt: "Pepper workspace",
         caption: "Cover",
       },
       {
-        src: "images/pepper2.png",
+        src: "/AadiOS/images/pepper2.png",
         alt: "Pepper session",
         caption: "Session",
       },
@@ -138,16 +138,16 @@ export const projects: Project[] = [
       "A 2D prototype set in Mirehaven — a coastal town, a radio station, and broadcasts that should not exist.",
     purpose:
       "Learn 2D game development by making a place, a character, and a build that actually runs on a phone.",
-    cover: "images/mireheaven.jpeg",
+    cover: "/AadiOS/images/mireheaven.jpeg",
     coverAlt: "Mirehaven",
     stills: [
       {
-        src: "images/mireheaven.jpeg",
+        src: "/AadiOS/images/mireheaven.jpeg",
         alt: "Mirehaven",
         caption: "Cover",
       },
       {
-        src: "images/mireheaven2.jpeg",
+        src: "/AadiOS/images/mireheaven2.jpeg",
         alt: "Game still",
         caption: "In game",
       },
@@ -215,16 +215,16 @@ export const projects: Project[] = [
       "Deepcytes.io Cyber Labs — a UK school-collaboration program, with a certificate and a permanent digital badge.",
     purpose:
       "Learn how networks, Linux, and OSINT actually behave, in a structured student lab — not as a job title.",
-    cover: "images/cyber-cover.jpeg",
+    cover: "/AadiOS/images/cyber-cover.jpeg",
     coverAlt: "Cybersecurity labs",
     stills: [
       {
-        src: "images/cyber-cover.jpeg",
+        src: "/AadiOS/images/cyber-cover.jpeg",
         alt: "Cybersecurity labs",
         caption: "Cover",
       },
       {
-        src: "images/cybersec2.jpeg",
+        src: "/AadiOS/images/cybersec2.jpeg",
         alt: "Certificate",
         caption: "Certificate",
       },
@@ -275,16 +275,16 @@ export const projects: Project[] = [
       "Linux, VirtualBox, networking environments, CLI tooling — a lab for breaking things on purpose.",
     purpose:
       "Build a troubleshooting mindset: isolate the fault, change one variable, write down what actually happened.",
-    cover: "images/linux-cover.jpg",
+    cover: "/AadiOS/images/linux-cover.jpg",
     coverAlt: "Linux systems lab",
     stills: [
       {
-        src: "images/linux-cover.jpg",
+        src: "/AadiOS/images/linux-cover.jpg",
         alt: "Linux systems lab",
         caption: "Cover",
       },
       {
-        src: "images/linux2.jpg",
+        src: "/AadiOS/images/linux2.jpg",
         alt: "Linux environment",
         caption: "Lab setup",
       },
