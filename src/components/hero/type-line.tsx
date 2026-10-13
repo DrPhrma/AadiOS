@@ -58,7 +58,7 @@ export function TypeLine({
 
   return (
     <p
-      className={cn("type-cursor min-h-7 sm:min-h-8", className)}
+      className={cn("type-cursor min-h-8 sm:min-h-9", className)}
       aria-label={ROLES.join(", ")}
     >
       {display}

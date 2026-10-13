@@ -17,9 +17,9 @@ export function Hero() {
           </h1>
           <div className="boot-3 mt-4 max-w-xl">
             {reduced ? (
-              <p className="text-base text-fg sm:text-lg">{site.tagline}</p>
+              <p className="text-lg text-fg sm:text-xl">{site.tagline}</p>
             ) : (
-              <TypeLine text={site.tagline} className="text-base text-fg sm:text-lg" />
+              <TypeLine className="text-lg text-fg sm:text-xl" />
             )}
             <p className="mt-3 text-sm text-muted sm:text-base">{site.support}</p>
           </div>
